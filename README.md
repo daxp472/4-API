@@ -70,14 +70,14 @@ The API will be running on http://localhost:3000.
 ## **API Documentation:**
    For a complete list of all available endpoints and how to use them, refer to the Postman API Documentation.
    ```bash
-   (https://documenter.getpostman.com/view/39216571/2sAYQUqERV)
+   https://documenter.getpostman.com/view/39216571/2sAYQUqERV
 ```
 
 
 ## **Additional Resources:**
    For more detailed information about the code and functions, refer to the API PDF which includes an overview of all functions and their usage:
    ```bash
-   (https://drive.google.com/file/d/1zBTX0FVJru0wXv2tjqrYYIAMkdGonvxo/view?usp=sharing)
+   https://drive.google.com/file/d/1zBTX0FVJru0wXv2tjqrYYIAMkdGonvxo/view?usp=sharing
 ```
 
 ## **Code Explanation:**
