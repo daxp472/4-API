@@ -7,7 +7,8 @@ const port = 5000;
 
 app.use(bodyParser.json());
 
-const uri = 'mongodb://localhost:27017';
+const urilocal = 'mongodb://localhost:27017';
+const uri = 'mongodb+srv://daxpatelcg:Volleyball10@cluster0.ds8ts.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const dbName = "Github";
 
 let db;
@@ -320,7 +321,7 @@ app.post('/forks', async (req, res) => {
   });
   
 
-  
+
 
 
   // all stars realted requests added hear
