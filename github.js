@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const urilocal = 'mongodb://localhost:27017';
-const uri = 'mongodb+srv://kalppatel1209:kalp5121@cluster0.g4rus.mongodb.net/'
+const uri = 'mongodb+srv://daxpatelcg:Volleyball10@cluster0.ds8ts.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const dbName = "codinggita";
 
 let db;
