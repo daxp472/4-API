@@ -1,5 +1,5 @@
 const cors = require('cors');
-app.use(cors());
+
 
 const express = require('express');
 const { MongoClient, ObjectId } = require('mongodb');
@@ -8,6 +8,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 5000;
 
+app.use(cors());
 app.use(bodyParser.json());
 
 const urilocal = 'mongodb://localhost:27017';
